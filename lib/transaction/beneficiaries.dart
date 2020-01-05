@@ -24,6 +24,7 @@ class BeneficiariesTransaction extends StatelessWidget {
     @required this.data,
   }) : super(key: key);
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -133,7 +134,7 @@ class BeneficiariesTransaction extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4.0),
-                    border: Border.all(width: 3.0, color: _mainColor),
+                    border: Border.all(width: 2.0, color: _mainColor),
                     color: _noColor,
                   ),
                 ),
@@ -150,7 +151,7 @@ class BeneficiariesTransaction extends StatelessWidget {
                       ),
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3.0, color: _mainColor),
+                      border: Border.all(width: 2.0, color: _mainColor),
                       borderRadius: BorderRadius.circular(8.0),
                       color: _noColor,
                     ),
@@ -264,7 +265,7 @@ class BeneficiariesTransaction extends StatelessWidget {
                                 groupValue: 1,
                                 activeColor: Colors.green,
                                 onChanged: (val) {
-                                  print("Radio $val");
+                                   
                                 },
                               ),
                               Text(
@@ -279,7 +280,7 @@ class BeneficiariesTransaction extends StatelessWidget {
                                 groupValue: 0,
                                 activeColor: Colors.green,
                                 onChanged: (val) {
-                                  print("Radio $val");
+                                  
                                 },
                               ),
                               Text(
@@ -355,7 +356,7 @@ class BeneficiariesTransaction extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4.0),
-                    border: Border.all(width: 3.0, color: _mainColor),
+                    border: Border.all(width: 2.0, color: _mainColor),
                     color: _noColor,
                   ),
                 ),
@@ -372,7 +373,7 @@ class BeneficiariesTransaction extends StatelessWidget {
                       ),
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3.0, color: _mainColor),
+                      border: Border.all(width: 2.0, color: _mainColor),
                       borderRadius: BorderRadius.circular(8.0),
                       color: _noColor,
                     ),

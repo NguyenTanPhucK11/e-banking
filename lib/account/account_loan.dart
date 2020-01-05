@@ -176,7 +176,7 @@ class AccountLoanPage extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4.0),
-                    border: Border.all(width: 3.0, color: _mainColor),
+                    border: Border.all(width: 2.0, color: _mainColor),
                     color: _noColor,
                   ),
                 ),
@@ -193,7 +193,7 @@ class AccountLoanPage extends StatelessWidget {
                       ),
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3.0, color: _mainColor),
+                      border: Border.all(width: 2.0, color: _mainColor),
                       borderRadius: BorderRadius.circular(8.0),
                       color: _noColor,
                     ),

@@ -29,7 +29,8 @@ class HistoryExchangedPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Lịch sử giao dịch'),
       ),
-      body: Center(
+      body:SingleChildScrollView(
+        child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
@@ -104,7 +105,7 @@ class HistoryExchangedPage extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4.0),
-                    border: Border.all(width: 3.0, color: _mainColor),
+                    border: Border.all(width: 2.0, color: _mainColor),
                     color: _noColor,
                   ),
                 ),
@@ -121,7 +122,7 @@ class HistoryExchangedPage extends StatelessWidget {
                       ),
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3.0, color: _mainColor),
+                      border: Border.all(width: 2.0, color: _mainColor),
                       borderRadius: BorderRadius.circular(8.0),
                       color: _noColor,
                     ),
@@ -362,7 +363,7 @@ class HistoryExchangedPage extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4.0),
-                    border: Border.all(width: 3.0, color: _mainColor),
+                    border: Border.all(width: 2.0, color: _mainColor),
                     color: _noColor,
                   ),
                 ),
@@ -379,7 +380,7 @@ class HistoryExchangedPage extends StatelessWidget {
                       ),
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3.0, color: _mainColor),
+                      border: Border.all(width: 2.0, color: _mainColor),
                       borderRadius: BorderRadius.circular(8.0),
                       color: _noColor,
                     ),
@@ -389,6 +390,7 @@ class HistoryExchangedPage extends StatelessWidget {
             )
           ],
         ),
+      ),
       ),
     );
   }

@@ -45,7 +45,7 @@ class ExchangedPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: _noColor,
       appBar: AppBar(
-        title: Text('Tài khoản tiết kiệm'),
+        title: Text(''),
       ),
       body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.start, children: <
@@ -237,7 +237,7 @@ class ExchangedPage extends StatelessWidget {
                               height: _sizeHeighContainer * 5,
                               child: RaisedButton(
                                 child: Text(
-                                  'Quý khách nhận được số tiền 10,000 từ tìa khoản 1800110000028436. '
+                                  'Quý khách nhận được số tiền 10,000 từ tai khoản 1800110000028436. '
                                   ' Số điện thoại hỗ trợ : 1900 1000',
                                   style: TextStyle(
                                       fontSize: 18, color: Colors.black),

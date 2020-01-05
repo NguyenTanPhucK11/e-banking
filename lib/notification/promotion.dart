@@ -45,7 +45,7 @@ class PromotionPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: _noColor,
       appBar: AppBar(
-        title: Text('Tài khoản tiết kiệm'),
+        title: Text('Home'),
       ),
       body: Center(
         child: Column(mainAxisAlignment: MainAxisAlignment.start, children: <

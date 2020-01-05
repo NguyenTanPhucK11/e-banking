@@ -41,8 +41,9 @@ class FirstPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Routing App'),
       ),
-      body: Center(
-        child: Column(
+      body: SingleChildScrollView(
+        child : Center(
+        child : Column(
           // mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
@@ -161,6 +162,7 @@ class FirstPage extends StatelessWidget {
             Image.asset('img/UnLockk.png',height: 120,width: 120),
           ],
         ),
+      ),
       ),
     );
   }

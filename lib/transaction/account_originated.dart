@@ -30,9 +30,10 @@ class AccountOriginated extends StatelessWidget {
     return Scaffold(
       backgroundColor: _noColor,
       appBar: AppBar(
-        title: Text('Chuyển khoản'),
+        title: Text('Home'),
       ),
-      body: Center(
+      body: SingleChildScrollView(
+        child :Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
@@ -258,7 +259,7 @@ class AccountOriginated extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4.0),
-                    border: Border.all(width: 3.0, color: _mainColor),
+                    border: Border.all(width: 2.0, color: _mainColor),
                     color: _noColor,
                   ),
                 ),
@@ -275,7 +276,7 @@ class AccountOriginated extends StatelessWidget {
                       ),
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3.0, color: _mainColor),
+                      border: Border.all(width: 2.0, color: _mainColor),
                       borderRadius: BorderRadius.circular(8.0),
                       color: _noColor,
                     ),
@@ -311,6 +312,7 @@ class AccountOriginated extends StatelessWidget {
             ),
           ],
         ),
+       ),
       ),
     );
   }

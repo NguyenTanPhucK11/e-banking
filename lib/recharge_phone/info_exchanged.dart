@@ -1,3 +1,4 @@
+import 'package:e_banking/recharge_phone/choose_type_card.dart';
 import 'package:flutter/material.dart';
 
 class HexColor extends Color {
@@ -27,7 +28,7 @@ class ConfirmationRecharge extends StatelessWidget {
     return Scaffold(
       backgroundColor: _noColor,
       appBar: AppBar(
-        title: Text('Tài khoản tiết kiệm'),
+        title: Text('Thông tin giao dịch'),
       ),
       body: Center(
         child: Column(
@@ -52,14 +53,14 @@ class ConfirmationRecharge extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tài khoản nguồn",
+                              " Tài khoản nguồn",
                               style: TextStyle(
                                 color: _mainColor,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              "18110000028436",
+                              "18110000028436 ",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold,
@@ -80,14 +81,14 @@ class ConfirmationRecharge extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Số điện thoại",
+                              " Số điện thoại",
                               style: TextStyle(
                                 color: _mainColor,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              "0914080804",
+                              "0914080804 ",
                               style: TextStyle(
                                 color: _moneyColor,
                                 fontWeight: FontWeight.bold,
@@ -108,14 +109,14 @@ class ConfirmationRecharge extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Mệnh giá",
+                              "  Mệnh giá",
                               style: TextStyle(
                                 color: _mainColor,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              "10,000 VND",
+                              "10,000 VND ",
                               style: TextStyle(
                                 color: _moneyColor,
                                 fontSize: 20,
@@ -135,14 +136,14 @@ class ConfirmationRecharge extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Phí",
+                              " Phí",
                               style: TextStyle(
                                 color: _mainColor,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              "0 VND",
+                              "0 VND ",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 20,
@@ -162,14 +163,14 @@ class ConfirmationRecharge extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "VAT",
+                              " VAT",
                               style: TextStyle(
                                 color: _mainColor,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              "0 VND",
+                              "0 VND ",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 20,
@@ -189,14 +190,14 @@ class ConfirmationRecharge extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Chiết khấu",
+                              " Chiết khấu",
                               style: TextStyle(
                                 color: _mainColor,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              "500 VND",
+                              "500 VND ",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 20,
@@ -216,14 +217,14 @@ class ConfirmationRecharge extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Thanh toán",
+                              " Thanh toán",
                               style: TextStyle(
                                 color: _mainColor,
                                 fontSize: 14,
                               ),
                             ),
                             Text(
-                              "9,500 VND",
+                              "9,500 VND ",
                               style: TextStyle(
                                 color: _moneyColor,
                                 fontSize: 20,
@@ -239,7 +240,7 @@ class ConfirmationRecharge extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4.0),
-                    border: Border.all(width: 3.0, color: _mainColor),
+                    border: Border.all(width: 2.0, color: _mainColor),
                     color: _noColor,
                   ),
                 ),
@@ -248,7 +249,7 @@ class ConfirmationRecharge extends StatelessWidget {
                   left: 15,
                   child: Container(
                     child: Text(
-                      "Thông tin tài khoản tiết kiệm",
+                      "Thông tin giao dịch",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: _mainColor,
@@ -256,7 +257,7 @@ class ConfirmationRecharge extends StatelessWidget {
                       ),
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3.0, color: _mainColor),
+                      border: Border.all(width: 2.0, color: _mainColor),
                       borderRadius: BorderRadius.circular(8.0),
                       color: _noColor,
                     ),
@@ -298,7 +299,7 @@ class ConfirmationRecharge extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4.0),
-                    border: Border.all(width: 3.0, color: _mainColor),
+                    border: Border.all(width: 2.0, color: _mainColor),
                     color: _noColor,
                   ),
                 ),
@@ -307,7 +308,7 @@ class ConfirmationRecharge extends StatelessWidget {
                   left: 15,
                   child: Container(
                     child: Text(
-                      "Tài khoản thanh toán",
+                      "Ngày giao dịch",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: _mainColor,
@@ -315,7 +316,7 @@ class ConfirmationRecharge extends StatelessWidget {
                       ),
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3.0, color: _mainColor),
+                      border: Border.all(width: 2.0, color: _mainColor),
                       borderRadius: BorderRadius.circular(8.0),
                       color: _noColor,
                     ),
@@ -333,6 +334,12 @@ class ConfirmationRecharge extends StatelessWidget {
                   style: TextStyle(fontSize: 20, color: _noColor),
                 ),
                 onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => ChooseTypeCard(
+                          data: 'Hello there from the first page!'),
+                    ),
+                  );
                 },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16.0),
